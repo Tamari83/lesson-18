@@ -1,0 +1,40 @@
+.slide {
+    width: 100%;
+}
+.image-slider {
+    width: 100%; 
+
+    /* ისარმა რომ არ იმოძრაოს ვამატებ ამ პარამეტრებს.  */
+   height:900px;
+   object-fit: cover;
+}
+.slider-wrapper {
+    position: relative;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+
+}
+.arrow-left {
+    left: 30px;
+}
+.arrow-right {
+    right: 30px;
+}
+.slider-title{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color:palevioletred;
+    font-size: 30px;
+}
