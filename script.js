@@ -23,8 +23,8 @@ let data = [
         imageUrl:'https://st.depositphotos.com/1005147/3687/i/950/depositphotos_36879747-stock-photo-redhead-girl-with-umbrella-at.jpg',
         title:'slide title 4,',
         url:'htpps://google.com'
-    }
-]
+    },
+];
 
 
 let arrowLeft = document.getElementById('arrow-left');
@@ -95,7 +95,7 @@ function setSlide(){
     sliderContent.appendChild(slideItem);
     sliderContent.appendChild(dots); 
     currentDotActive(); 
-    console.log(slideItem);
+    // console.log(slideItem);
 }
 
 function currentDotActive(){
